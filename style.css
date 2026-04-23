@@ -1,0 +1,11 @@
+body {margin:0;font-family:Arial;}
+header {background:#111;color:#fff;padding:15px;text-align:center;}
+.hero {background:#333;color:#fff;padding:120px 20px;text-align:center;}
+.btn {background:#ff6600;color:white;padding:12px 25px;text-decoration:none;border-radius:5px;display:inline-block;margin-top:10px;}
+.section {padding:60px 20px;text-align:center;}
+.grid {display:flex;flex-wrap:wrap;gap:20px;justify-content:center;}
+.card {background:#f4f4f4;padding:20px;width:250px;border-radius:10px;}
+.steps {display:flex;flex-wrap:wrap;justify-content:center;gap:20px;}
+.step {width:200px;}
+form input, form select {width:90%;padding:10px;margin:10px;}
+footer {background:#111;color:white;text-align:center;padding:20px;}

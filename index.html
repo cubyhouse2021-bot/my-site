@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Грузоперевозки</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>Грузоперевозки</h2>
+</header>
+
+<section class="hero">
+    <h1>Быстрая доставка грузов</h1>
+    <p>Переезды, перевозки, грузчики</p>
+    <a href="#form" class="btn">Заказать</a>
+</section>
+
+<section class="section">
+    <h2>Преимущества</h2>
+    <div class="grid">
+        <div class="card">Быстрая подача машины</div>
+        <div class="card">Лучшие цены</div>
+        <div class="card">Онлайн заказ</div>
+        <div class="card">Опытные грузчики</div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Тарифы</h2>
+    <div class="grid">
+        <div class="card"><h3>Mini</h3><p>от 10€/ч</p></div>
+        <div class="card"><h3>Standart</h3><p>от 15€/ч</p></div>
+        <div class="card"><h3>Maxi</h3><p>от 20€/ч</p></div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Как это работает</h2>
+    <div class="steps">
+        <div class="step">1. Заполните форму</div>
+        <div class="step">2. Мы найдём машину</div>
+        <div class="step">3. Доставка</div>
+        <div class="step">4. Оплата</div>
+    </div>
+</section>
+
+<section class="section" id="form">
+    <h2>Оформить заказ</h2>
+    <form onsubmit="sendForm(event)">
+        <input type="text" placeholder="Ваш телефон" required>
+        <input type="text" placeholder="Откуда">
+        <input type="text" placeholder="Куда">
+        <select>
+            <option>Тип машины</option>
+            <option>Mini</option>
+            <option>Maxi</option>
+        </select>
+        <button class="btn">Отправить</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Грузоперевозки</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
